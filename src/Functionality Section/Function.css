@@ -1,0 +1,51 @@
+.functionality-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.functionality-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.functionality-card {
+    width: calc(25% - 20px); /* Adjust as needed for 4 columns */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.functionality-card:hover {
+    transform: translateY(-5px);
+}
+
+.functionality-card .icon,
+.functionality-card .text {
+    width: 50%; /* Adjust as needed */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.functionality-card .icon {
+    text-align: left;
+}
+
+.functionality-card .text {
+    text-align: right;
+}
+
+.functionality-card h3 {
+    margin-top: 0;
+}
+
+.functionality-card p {
+    color: #555;
+}
